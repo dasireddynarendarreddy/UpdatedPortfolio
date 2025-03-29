@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
-
+import {  ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
+import { Link } from "react-router-dom"
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center pt-16">
@@ -23,6 +24,10 @@ export default function Hero() {
               <a href="#projects">View My Work</a>
             </Button>
           </div>
+          <div>
+            <p>To Know More About Me Chat With Bot</p>
+            <Button><Link to="/assistant"><MessageCircle/></Link></Button>
+          </div>
           <div className="flex justify-center gap-6 animate-in fade-in slide-in-from-bottom-6 duration-1000">
             <Button size="icon" variant="ghost" asChild>
               <a
@@ -43,10 +48,11 @@ export default function Hero() {
               </a>
             </Button>
             <Button size="icon" variant="ghost" asChild>
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:narendarreddy2002@gmail.com">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
+
           </div>
         </div>
       </div>

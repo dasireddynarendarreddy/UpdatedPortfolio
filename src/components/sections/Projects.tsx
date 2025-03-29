@@ -37,6 +37,28 @@ import {
       liveUrl: 'https://makenotesandpdf.netlify.app/',
       githubUrl: 'https://github.com/dasireddynarendarreddy/makenotes',
     },
+    {
+      title: 'Chat Bot',
+      description:
+        'Chat Bot Application Which is Same as Chat gpt and Gemini gpt Model you can ask the question the gpt will generate the answer the some features are their in this application which are not there in chat gpt also User can also delete the Response if he dont like and navigate betweent the response and histroy tarcking',
+      image: 'https://tchelete.com/wp-content/uploads/2023/07/chatbot-development-with-deep-nlp-1024x1024.png',
+      tags: ['React', 'TailwindCss', 'localstorage',"Material ui"],
+      liveUrl: 'https://geminigpt1.netlify.app/',
+      githubUrl: 'https://github.com/dasireddynarendarreddy/chatbot',
+
+    },
+    
+      {
+        title: 'Quiz App Integrated With Gemini API',
+        description:
+          'QUIZ App where the user can take the Quiz on the different programming languages and frameworks and user can select the level of the quiz like(easy,hard,medium) and No.of question based on the users choice the gemini gpt will generate this questions and give and by using the react js the question will be rendered on screen the user will get the instant result about the answer of question',
+        image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/593/846/datas/original.png',
+        tags: ['React', 'TailwindCss', 'mongodb',"shadcn ui"],
+        liveUrl: 'https://geminiquizapp.netlify.app/',
+        githubUrl: 'https://github.com/dasireddynarendarreddy/QuiZApp',
+  
+      }
+    
   ];
   
   export default function Projects() {

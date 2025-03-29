@@ -9,6 +9,7 @@ import { Toaster } from '@/components/ui/sonner';
 
 function App() {
   return (
+    
     <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
       <div className="min-h-screen bg-background">
         <Navigation />

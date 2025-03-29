@@ -1,0 +1,10 @@
+/* In your CSS file */
+.markdown-container a {
+    color: #1e90ff; /* Blue color */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  .markdown-container a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
