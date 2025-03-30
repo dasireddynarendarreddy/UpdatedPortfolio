@@ -1,28 +1,7 @@
 import {GoogleGenAI} from "@google/genai"
 import ReactMarkdown from 'react-markdown';
 import './Gpt.css'
-/*function Gpt()
-{
-    
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyC_B4itDNNck_c1c3NPApmskFDmgA1XGmU" });
-
-async function main() {
-  const response = await ai.models.generateContent({
-    model: "gemini-2.0-flash",
-    contents: "Explain how AI works",
-  });
-  console.log(response.text);
-}
-
-
-    return(
-        <>
-        
-        </>
-    )
-}
-export default Gpt;*/
 import { useState } from 'react';
 
 import { Button } from "./ui/button";
