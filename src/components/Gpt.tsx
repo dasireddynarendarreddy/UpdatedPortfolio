@@ -42,7 +42,7 @@ const Gpt= () => {
   const [input, setInput] = useState('');
   const [data, setData] = useState<ChatItem[]>([]);
   const [loading, setLoading] = useState(false);
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyC_B4itDNNck_c1c3NPApmskFDmgA1XGmU" });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_URL });
 
 
 
